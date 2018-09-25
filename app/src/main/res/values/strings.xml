@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">USICTtimetable</string>
+    <string name="info">"This app provides the TimeTables of all the batches and courses of USICT.It saves you from the hassle of searching your time table in the various places you save it, making the search effortless."</string>
+    <string name="mydetails">"Your suggestions for the improvement of the app are welcome. Kindly send your suggestions or your inputs here:"</string>
+</resources>

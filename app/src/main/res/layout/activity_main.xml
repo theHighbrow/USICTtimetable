@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <TextView
+        android:id="@+id/ecesem1"
+        android:textSize="35sp"
+        android:layout_width="match_parent"
+        android:padding="15sp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#D6EAF8"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="ECE SEM 1"
+        android:onClick="ecesem1"/>
+
+    <TextView
+        android:id="@+id/csesem1"
+        android:textSize="35sp"
+        android:padding="15sp"
+        android:background="#AED6F1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ecesem1"
+        android:layout_centerHorizontal="true"
+        android:text="CSE SEM 1" />
+
+    <TextView
+        android:id="@+id/itsem1"
+        android:textSize="35sp"
+        android:background="#cceeff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:layout_below="@+id/csesem1"
+        android:layout_centerHorizontal="true"
+        android:text="IT SEM 1" />
+
+    <TextView
+        android:id="@+id/ecesem3"
+        android:layout_width="match_parent"
+        android:textSize="35sp"
+        android:background="#85C1E9"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:layout_below="@+id/itsem1"
+        android:onClick="ecesem3"
+        android:layout_centerHorizontal="true"
+        android:text="ECE SEM 3" />
+
+    <TextView
+        android:id="@+id/csesem3"
+        android:layout_width="match_parent"
+        android:textSize="35sp"
+        android:padding="15sp"
+        android:background="#99ccff"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ecesem3"
+        android:layout_centerHorizontal="true"
+        android:text="CSE SEM 3" />
+
+    <TextView
+        android:id="@+id/itsem3"
+        android:layout_width="match_parent"
+        android:background="#5DADE2"
+        android:padding="15sp"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:layout_below="@+id/csesem3"
+        android:layout_centerHorizontal="true"
+        android:text="IT SEM 3" />
+
+    <TextView
+        android:id="@+id/ecesem5"
+        android:padding="15sp"
+        android:background="#80aaff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:layout_below="@+id/itsem3"
+        android:layout_centerHorizontal="true"
+        android:text="ECE SEM 5" />
+
+    <TextView
+        android:id="@+id/csesem5"
+        android:layout_width="match_parent"
+        android:background="#6699FF"
+        android:padding="15sp"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:layout_below="@+id/ecesem5"
+        android:layout_centerHorizontal="true"
+        android:text="CSE SEM 5" />
+
+    <TextView
+        android:id="@+id/itsem5"
+        android:padding="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5DADE2"
+        android:textSize="35sp"
+        android:layout_below="@+id/csesem5"
+        android:layout_centerHorizontal="true"
+        android:text="IT SEM 5" />
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
