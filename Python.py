@@ -1,1 +1,1 @@
-print("hello world, this is a commit to a repostory!")
+print("hello world,python sucks lol")
